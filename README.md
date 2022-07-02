@@ -23,9 +23,9 @@ Making the proper calculations, we can see that the favorable cases for prisoner
 
 random number distributions and favorable cases
 
-1K   : 31.1% 
-10K  : 31.259%
-100K : 31.352%
-1M   : 31,1083%.
+1K   : 31.1%\
+10K  : 31.259%\
+100K : 31.352%\
+1M   : 31,1083%
 
 If tests are repeated for, let's say, 10K or 100K the probabilities change but the difference is not significant.
