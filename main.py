@@ -1,6 +1,7 @@
 # Explanation of the problem
 # https://www.youtube.com/watch?v=iSNsgj1OCLA
 
+import sys
 import random
 
 def calculate_loops(my_boxes):
@@ -61,6 +62,9 @@ def main():
 
     MAX_PRISONERS = 100
     MAX_TESTS = 100000
+
+    if len(sys.argv) > 1:
+        MAX_TESTS = int(sys.argv[1])
 
     prisoner_numbers = list(range(0, MAX_PRISONERS))
 
